@@ -7,6 +7,9 @@
     --secondary-color: #588da7;
     --tertiary-color: #66caa9;
 }
+body {
+    background-color: var(--secondary-color);
+}
 header {
     border: 40px 10px 40px 10px;
     padding: 20px 35px;
@@ -83,6 +86,12 @@ font-family: 'Courier New', Courier, monospace;
     border: 2px var(--primary-color);
     font-family: 'Courier New', Courier, monospace;
 }
+.personal-image {
+    background-color: var(--secondary-color);
+    float: left;
+    margin: 20px;
+    border: var(--primary-color) solid 5px;
+}
 .img-section {
     width: 50%;
     background-color: var(--secondary-color);
@@ -129,6 +138,12 @@ font-family: 'Courier New', Courier, monospace;
 .contact-section {
     background-color: var(--secondary-color);
 }
+.contact-section h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact-section ul li {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 footer {
     background-color: var(--secondary-color);
@@ -146,11 +161,21 @@ footer p {
 }
 
 @media screen and (max-width: 980px) {
-
+    header h1 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
+.twowrap {
+    display: inline-block;
+}
 .img-section {
+    display: inline;
+    width: 100%;
+}
+.aboutme {
+    display: inline;
     width: 100%;
 }
 }
