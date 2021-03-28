@@ -5,7 +5,7 @@
 :root {
     --primary-color: #4a4763;
     --secondary-color: #588da7;
-    --tertiary-color: #6aa659;
+    --tertiary-color: #66caa9;
 }
 header {
     border: 40px 10px 40px 10px;
@@ -20,6 +20,7 @@ header h1 {
     font-weight: bolder;
     vertical-align: middle;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header nav ul {
@@ -36,59 +37,7 @@ margin: 50px 30px 0 30px;
 text-decoration: none;
 color: var(--tertiary-color);
 font-size: larger;
-}
-
-footer {
-    background-color: var(--secondary-color);
-    height: 75px;
-}
-footer h3 {
-    color: var(--primary-color);
-    vertical-align: middle;
-}
-footer p {
-    opacity: .75;
-    vertical-align: middle;
-}
-
-.twowrap {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.aboutme {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: var(--secondary-color);
-    width: 50%;
-}
-
-.aboutme h2 {
-    color: var(--primary-color);
-    font-style: italic;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-}
-
-.containertext p{
-    color: var(--tertiary-color);
-    background-color: var(--secondary-color);
-    font-size: 20px;
-}
-
-.img-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-    width: 50%;
-}
-
-.img-section ul li {
-    display: inline;
-    list-style: none;
-    border: var(--tertiary-color) 10px;
+font-family: 'Courier New', Courier, monospace;
 }
 
 .hero {
@@ -104,3 +53,72 @@ footer p {
    margin: auto;
 }
 
+.twowrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    width: 50%;
+    border: 5px sold var(--primary-color);
+}
+
+.aboutme h2 {
+    color: var(--primary-color);
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.containertext p{
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    border: 2px var(--primary-color);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 50%;
+    background-color: var(--secondary-color);
+}
+.img-section h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.img-section ul li {
+    display: inline;
+    list-style: none;
+    border: var(--tertiary-color) 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-section {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--secondary-color);
+    height: 75px;
+}
+footer h3 {
+    color: var(--primary-color);
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer p {
+    opacity: .75;
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+}
