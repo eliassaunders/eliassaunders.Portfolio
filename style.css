@@ -89,7 +89,6 @@ font-family: 'Courier New', Courier, monospace;
 .personal-image {
     background-color: var(--secondary-color);
     margin: 20px;
-    border: var(--primary-color) solid 5px;
 }
 .img-section {
     width: 50%;
