@@ -4,6 +4,6 @@
 
 # Learn about me, look at my run-buddy project and learn a little about me. 
 
-![screenshot](/assets/images/Capture.PNG?raw=true)
+![screenshot](./assets/images/Capture.PNG?raw=true)
 
 https://eliassaunders.github.io/eliassaunders.Portfolio/
